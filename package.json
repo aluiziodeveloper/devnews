@@ -10,12 +10,14 @@
   "dependencies": {
     "@prismicio/client": "^5.0.0",
     "next": "10.2.3",
+    "prismic-dom": "^2.2.5",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "sass": "^1.34.0"
   },
   "devDependencies": {
     "@types/node": "^15.6.1",
+    "@types/prismic-dom": "^2.1.1",
     "@types/react": "^17.0.6",
     "@typescript-eslint/eslint-plugin": "^4.25.0",
     "@typescript-eslint/parser": "^4.25.0",
