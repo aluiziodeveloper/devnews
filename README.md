@@ -1,34 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <a href="https://aluiziodeveloper.com.br/">
+    <img alt="Aluizio Developer" src="https://aluiziodeveloper.com.br/assets/img/icon.png" width="200" />
+  </a>
+</p>
+<h2 align="center">
+Informação sobre tecnologia, dicas, tutoriais, mini-cursos e muito mais.
+</h2>
 
-## Getting Started
+### Curso React Essencial com Next.js, Typescript, Styled Components, SASS, Prismic CMS, Code Splitting, Testes Automatizados, Deploy, etc.
 
-First, run the development server:
+Seja muito bem-vindo ao curso prático: React Essencial com Next.js, Typescript, Styled Components, SASS, Prismic CMS, Code Splitting, Testes Automatizados, Deploy, entre outros recursos.
 
-```bash
-npm run dev
-# or
-yarn dev
+Este é o repositório Git da aplicação DevNews! desenvolvida durante o curso.
+
+## Rodando a aplicação no seu PC
+
+Faça um clone deste repositório e instale no seu ambiente de desenvolvimento usando o seguinte comando no seu terminal (escolha um diretório apropriado):
+
+```shell
+git clone https://github.com/aluiziodeveloper/devnews.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Após clonar o conteúdo do repositório, acesse o diretório criado e efetue a instalação das dependências:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```shell
+cd devnews
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+npm install
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Após essa instalação execute a aplicação com o comando `npm run dev`. A aplicação estará disponível no endereço `http://localhost:3000`.
 
-## Learn More
+## Contato
 
-To learn more about Next.js, take a look at the following resources:
+[Site Aluizio Developer](https://aluiziodeveloper.com.br)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[YouTube](https://www.youtube.com/jorgealuizio)
