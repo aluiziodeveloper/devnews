@@ -1,6 +1,8 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { useRouter } from 'next/router';
 import { RichText } from 'prismic-dom';
+import { format } from 'date-fns';
+import { ptBR } from 'date-fns/locale';
 import { getPrismicClient } from '../../services/prismic';
 import SEO from '../../components/SEO';
 import styles from './post.module.scss';
@@ -56,14 +58,11 @@ export const getStaticProps: GetStaticProps = async context => {
   const post = {
     slug,
     title: RichText.asText(response.data.title),
-    content: RichText.asText(response.data.content),
-    updatedAt: new Date(response.last_publication_date).toLocaleDateString(
-      'pt-BR',
-      {
-        day: '2-digit',
-        month: 'long',
-        year: 'numeric',
-      },
+    content: RichText.asHtml(response.data.content),
+    updatedAt: format(
+      new Date(response.last_publication_date),
+      "d 'de' MMMM 'de' yyyy",
+      { locale: ptBR },
     ),
   };
 

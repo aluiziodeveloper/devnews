@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@prismicio/client": "^5.0.0",
+    "date-fns": "^2.22.1",
     "next": "10.2.3",
     "prismic-dom": "^2.2.5",
     "react": "17.0.2",

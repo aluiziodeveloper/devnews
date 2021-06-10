@@ -7,7 +7,7 @@ const post = {
   slug: 'test-new-post',
   title: 'Title for new post',
   content: '<p>Post content</p>',
-  updatedAt: '2021 M12 25',
+  updatedAt: '25 de dezembro de 2021',
 };
 
 jest.mock('../../services/prismic');
@@ -36,7 +36,7 @@ describe('Post page', () => {
       getByUID: jest.fn().mockResolvedValueOnce({
         data: {
           title: [{ type: 'heading', text: 'My new Post' }],
-          content: [{ type: 'paragraph', text: '<p>Post content</p>' }],
+          content: [{ type: 'paragraph', text: 'Post content' }],
         },
         last_publication_date: '12-25-2021',
       }),
@@ -53,7 +53,7 @@ describe('Post page', () => {
             slug: 'test-new-post',
             title: 'My new Post',
             content: '<p>Post content</p>',
-            updatedAt: '2021 M12 25',
+            updatedAt: '25 de dezembro de 2021',
           },
         },
         revalidate: 43200,
