@@ -9,7 +9,9 @@ Informação sobre tecnologia, dicas, tutoriais, mini-cursos e muito mais.
 
 ### Curso React Essencial com Next.js, Typescript, Styled Components, SASS, Prismic CMS, Code Splitting, Testes Automatizados, Deploy, etc.
 
-Seja muito bem-vindo ao curso prático: React Essencial com Next.js, Typescript, Styled Components, SASS, Prismic CMS, Code Splitting, Testes Automatizados, Deploy, entre outros recursos.
+Seja muito bem-vindo e bem-vinda ao curso prático: React Essencial com Next.js, Typescript, Styled Components, SASS, Prismic CMS, Code Splitting, Testes Automatizados, Deploy, entre outros recursos.
+
+Acesse a [página do curso na Udemy](https://www.udemy.com/course/curso-pratico-react-e-nextjs-essencial-com-typescript/?referralCode=BA1163FFEC7ADD378DFF) para conferir o conteúdo.
 
 Este é o repositório Git da aplicação DevNews! desenvolvida durante o curso.
 
@@ -31,8 +33,12 @@ npm install
 
 Após essa instalação execute a aplicação com o comando `npm run dev`. A aplicação estará disponível no endereço `http://localhost:3000`.
 
-## Contato
+## Redes Sociais
 
 [Site Aluizio Developer](https://aluiziodeveloper.com.br)
 
 [YouTube](https://www.youtube.com/jorgealuizio)
+
+[Servidor no Discord](https://discord.gg/3J87BMz5fD)
+
+[LinkedIn](https://www.linkedin.com/in/jorgealuizio/)
